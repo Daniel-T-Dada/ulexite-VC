@@ -10,3 +10,11 @@ To set up version control for your project, follow these steps:
 4. **Commit Changes**: Commit your changes with a descriptive message using `git commit -m "Your commit message"`.
 5. **Create a Remote Repository**: If you want to collaborate with others, create a remote repository on platforms like GitHub, GitLab, or Bitbucket.
 6. **Push Changes**: Push your local commits to the remote repository using `git push origin main` (replace `main` with your branch name if different).
+
+
+### Branching
+Branching allows you to create separate lines of development within your project. This is useful for working on new features or bug fixes without affecting the main codebase. 
+
+To create a new branch, use the command `git branch <branch-name>`, and switch to it using `git checkout <branch-name>`.Or you can create and switch to a new branch in one command using `git checkout -b <branch-name>`.
+
+After making changes, you can merge the branch back into the main branch using `git merge <branch-name>`.
